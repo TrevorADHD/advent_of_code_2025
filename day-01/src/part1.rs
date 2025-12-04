@@ -9,7 +9,7 @@ pub fn process(_input: &str) -> miette::Result<String> {
     let mut sum: i32 = 50;
     let mut n = 0 ;
     for rotation in _input.lines() {
-        // if n >= 20 { break }
+        // if n >= 40 { break }
         let re = Regex::new(r"(R|L)(\d+)").unwrap();
         // print!("rotation is {}", rotation);
         if let Some(caps) = re.captures(rotation) {
