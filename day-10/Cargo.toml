@@ -11,6 +11,9 @@ nom.workspace = true
 tracing.workspace = true
 tracing-subscriber.workspace = true
 miette.workspace = true
+bitvec.workspace = true
+memoize.workspace = true
+rayon.workspace = true
 
 [dev-dependencies]
 divan.workspace = true
